@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Rock-Paper-Scissors</string>
+    <string name="title1">Rock</string>
+    <string name="title2">Paper</string>
+    <string name="title3">Scissors</string>
+    <string name="Single">Single Player</string>
+    <string name="Multi">Multi Player</string>
+    <string name="Rules">Rules of the game</string>
+    <string name="Exit">Exit the game</string>
+    <string name="signature">Dima Kolyas ©</string>
+    <string name="turn_on">Turn On</string>
+    <string name="get_visible">Get visible</string>
+    <string name="list_devices">List devices</string>
+    <string name="turn_off">Turn off</string>
+    <string name="discover_devices">Discover devices</string>
+    <string name="back">Back</string>
+    <string name="connect">Connect</string>
+    <string name="not_connected">You are not connected to a device</string>
+</resources>

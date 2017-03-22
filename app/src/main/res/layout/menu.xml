@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/start_bckgrd">
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_Single"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/singleplayer_btn"
+            android:contentDescription="@string/Single"
+            android:background="@android:color/transparent"
+            android:paddingTop="100dp"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_Multi"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/multiplayer_btn"
+            android:contentDescription="@string/Multi"
+            android:background="@android:color/transparent"
+            android:paddingTop="20dp"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_Rules"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/rules_btn"
+            android:contentDescription="@string/Rules"
+            android:background="@android:color/transparent"
+            android:paddingTop="20dp"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_Exit"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/exit_btn"
+            android:contentDescription="@string/Exit"
+            android:background="@android:color/transparent"
+            android:cropToPadding="false" android:paddingTop="20dp" android:clickable="false"/>
+</LinearLayout>
